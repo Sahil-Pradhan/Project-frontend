@@ -1,0 +1,43 @@
+.myNavbar{
+    
+    background-color: black;
+    height: 60px;
+    
+    
+
+}
+.mylinks{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    color: white;
+}
+.myhome{
+    margin-left:50px;
+    
+}
+.myabout{
+    margin-left:100px;
+    
+}
+.mysignup{
+    margin-left:100px;
+   
+}
+.mylogin{
+    font-size: 20px;
+    margin-left:100px;
+   
+}
+.mylabelhome{
+    cursor: pointer;
+}
+.mylabelabout{
+    cursor: pointer;
+}
+.mylabelsignup{
+    cursor: pointer;
+}
+.mylabellogin{
+    cursor: pointer;    
+}
