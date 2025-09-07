@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body
+{
+    background-color: rgb(48 44 44);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+  font-family: 'ubuntu', sans-serif;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none ;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li
+{
+    padding: 0px 15px 0px 15px;
+}
+
+.container
+{
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    background-image: url(cover/cover1.png);
+}
+
+.brand img
+{
+    padding-top: 6px;
+    width: 80px;
+    padding: 0px 10px;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem  ;
+}
+
+
+
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    height: 100px;
+    background-color: rgb(14, 10, 10);
+    color: rgb(255, 255, 255);
+    bottom: 0;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    height: 50px;
+    
+}
+
+
+.icons svg
+{
+ 
+    width: 50px;
+    height: 40px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+#myProgressBar
+{
+    width: 75vw;
+    cursor: pointer;
+}
+
+.songItem
+{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    
+    margin: 12px 0;
+    border-radius: 12px;
+}
+
+.songItem img
+{
+ width:40px;
+ height: 40px;
+ margin: 0px 30px;
+ border-radius: 50px;
+}
+
+.songItemContainer
+{
+   margin: 75px 0px; 
+}
+
+.timeSpan
+{
+ margin: 0px 23px;   
+}
+
+.timeSpan svg
+{
+    cursor: pointer;
+}
+
+.songinfo
+{
+font-family:'Varela Round', sans-serif;
+position: absolute;
+left: 12vw;
+}
+
+.icons i
+{
+   
+    width: 80px;
+    height: 60px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
